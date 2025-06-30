@@ -1,34 +1,90 @@
-# Apresentação
+# 💻 Projeto Demo-Dao-JDBC | Demo-Dao-JDBC Project
 
-Descrição do Projeto
+[![Java](https://img.shields.io/badge/Java-17-blue.svg)](https://www.oracle.com/java/)
+[![JDBC](https://img.shields.io/badge/JDBC-API-green.svg)](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-orange.svg)](https://www.mysql.com/)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-Este repositório contém o código-fonte de um sistema desenvolvido em Java para a gestão de vendedores e departamentos de uma empresa. O projeto utiliza a arquitetura DAO (Data Access Object) para separar a lógica de acesso a dados da lógica de negócios, facilitando a manutenção e escalabilidade.
+🇧🇷 Repositório de demonstração que implementa o padrão **DAO (Data Access Object)** utilizando **JDBC (Java Database Connectivity)** para acesso a banco de dados.  
+🇺🇸 Demonstration repository implementing the **DAO (Data Access Object)** pattern using **JDBC (Java Database Connectivity)** for database access.
 
-# Funcionalidades Principais
+Projeto desenvolvido no curso **Java Completo** do professor Nelio Alves na Udemy! ☕
 
-CRUD Completo: Implementação das operações de Create, Read, Update e Delete para as entidades de Vendedor e Departamento.
+Project developed during the **Java Completo** course by Professor Nelio Alves on Udemy! ☕
 
-Conexão com Banco de Dados: Utilização da API JDBC para conectar e interagir com um banco de dados MySQL.
+---
 
-Programação Orientada a Objetos (POO): Utilização de POO como paradigma de programação.
+## 🎯 Objetivo do Projeto | Project Goal
 
-# Objetivo do Projeto
-O objetivo deste projeto é oferecer uma solução robusta para a gestão de vendedores e departamentos, proporcionando um exemplo prático do uso da arquitetura DAO e da API JDBC em aplicações Java.
+🇧🇷 Este projeto tem como propósito demonstrar de forma prática:
 
-Linguagem de Programação:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+1. 📁 **Padrão DAO**  
+   Separar a lógica de acesso a dados do restante da aplicação.
 
-IDE: 
-![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+2. 🔗 **JDBC**  
+   API padrão do Java para conectar e executar comandos em bancos de dados relacionais.
 
-Versionamento de Código:
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+🇺🇸 This project aims to demonstrate:
 
-Banco de Dados:
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+1. 📁 **DAO Pattern**  
+   A strategy to separate data access logic from the rest of the application.
 
-# 
-## Contate-me☎️
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brenonun3s/)
+2. 🔗 **JDBC**  
+   Java’s standard API to connect and perform operations in relational databases.
 
-[![morais.brenonunes@hotmail.com](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:morais.brenonunes@hotmail.com)
+---
+
+## 🧱 Estrutura | Structure
+
+🇧🇷 O projeto é dividido em:
+
+- **Entidades (`Department`, `Seller`)**  
+- **Interfaces DAO com operações CRUD**  
+- **Implementações JDBC com SQL nativo**
+
+🇺🇸 The project is structured into:
+
+- **Entities (`Department`, `Seller`)**  
+- **DAO interfaces for CRUD operations**  
+- **JDBC-based implementations using raw SQL**
+
+---
+
+## 🛠️ Tecnologias | Technologies
+
+- ☕ Java 17  
+- 🧩 JDBC  
+- 🗄️ MySQL
+
+---
+
+## 📚 Aprendizados | Learnings
+
+🇧🇷 Com este projeto, aprendi:
+
+- Práticas sólidas de acesso a dados com Java;
+- Abstrair a lógica de persistência com DAOs;
+- Trabalhar com JDBC diretamente antes de frameworks como JPA/Hibernate.
+
+🇺🇸 With this project, I learned:
+
+- Solid practices for data access in Java;
+- How to abstract persistence logic with DAOs;
+- How to use JDBC directly before adopting frameworks like JPA/Hibernate.
+
+---
+
+## ✅ Certificado | Certificate
+
+📜 [Certificado Udemy](https://www.udemy.com/certificate/UC-a3d76d51-5450-4e6e-9b98-1c71a1472ddc/)
+
+---
+
+## 🤝 Contribuições | Contributions
+
+🇧🇷 Sinta-se à vontade para explorar e contribuir!  
+🇺🇸 Feel free to explore and contribute!
+
+---
+
+**Desenvolvido por / Developed by [Breno Nunes](https://github.com/brenonun3s)**
